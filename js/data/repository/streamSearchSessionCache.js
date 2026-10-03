@@ -1,4 +1,4 @@
-const DEFAULT_COMPLETED_TTL_MS = 15 * 60 * 1000;
+const DEFAULT_COMPLETED_TTL_MS = 60 * 1000;
 const DEFAULT_MAX_ENTRIES = 12;
 const EMPTY_RESULT = Object.freeze({ status: "success", data: [] });
 
